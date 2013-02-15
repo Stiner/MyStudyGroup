@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Systems", "Systems", "{615534CE-3CC1-4395-BD07-B80A57484AB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contents", "Contents", "{6C1D6A0A-E9E4-4228-95B9-3E6E3B816C6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Execute", "Execute", "{6564CDAC-7F95-488E-9F8F-F2D98F38A36D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Login", "Systems\Login\Login.vcxproj", "{018B46C1-2040-4230-ACA5-339B541AFCA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Logic", "..\patterContents\Logic\Logic.vcxproj", "{B736045B-A741-4DD7-8696-91F4D6B8C0A0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "..\patterExecute\Server\Server.vcxproj", "{C26BA32E-2CC0-4326-A2F3-0D041A5536BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Share", "Share", "{1E96B767-7239-4F5C-8599-EB80960AD46A}"
+	ProjectSection(SolutionItems) = preProject
+		..\patten\Share\Define.h = ..\patten\Share\Define.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Protocol", "..\patten\Share\Protocol\Protocol.vcxproj", "{EBB7976D-135B-4A33-8ED6-4180184B13D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{018B46C1-2040-4230-ACA5-339B541AFCA7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{018B46C1-2040-4230-ACA5-339B541AFCA7}.Debug|Win32.Build.0 = Debug|Win32
+		{018B46C1-2040-4230-ACA5-339B541AFCA7}.Release|Win32.ActiveCfg = Release|Win32
+		{018B46C1-2040-4230-ACA5-339B541AFCA7}.Release|Win32.Build.0 = Release|Win32
+		{B736045B-A741-4DD7-8696-91F4D6B8C0A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B736045B-A741-4DD7-8696-91F4D6B8C0A0}.Debug|Win32.Build.0 = Debug|Win32
+		{B736045B-A741-4DD7-8696-91F4D6B8C0A0}.Release|Win32.ActiveCfg = Release|Win32
+		{B736045B-A741-4DD7-8696-91F4D6B8C0A0}.Release|Win32.Build.0 = Release|Win32
+		{C26BA32E-2CC0-4326-A2F3-0D041A5536BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C26BA32E-2CC0-4326-A2F3-0D041A5536BF}.Debug|Win32.Build.0 = Debug|Win32
+		{C26BA32E-2CC0-4326-A2F3-0D041A5536BF}.Release|Win32.ActiveCfg = Release|Win32
+		{C26BA32E-2CC0-4326-A2F3-0D041A5536BF}.Release|Win32.Build.0 = Release|Win32
+		{EBB7976D-135B-4A33-8ED6-4180184B13D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBB7976D-135B-4A33-8ED6-4180184B13D8}.Debug|Win32.Build.0 = Debug|Win32
+		{EBB7976D-135B-4A33-8ED6-4180184B13D8}.Release|Win32.ActiveCfg = Release|Win32
+		{EBB7976D-135B-4A33-8ED6-4180184B13D8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{018B46C1-2040-4230-ACA5-339B541AFCA7} = {615534CE-3CC1-4395-BD07-B80A57484AB3}
+		{B736045B-A741-4DD7-8696-91F4D6B8C0A0} = {6C1D6A0A-E9E4-4228-95B9-3E6E3B816C6F}
+		{C26BA32E-2CC0-4326-A2F3-0D041A5536BF} = {6564CDAC-7F95-488E-9F8F-F2D98F38A36D}
+		{EBB7976D-135B-4A33-8ED6-4180184B13D8} = {1E96B767-7239-4F5C-8599-EB80960AD46A}
+	EndGlobalSection
+EndGlobal

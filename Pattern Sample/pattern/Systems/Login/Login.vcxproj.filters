@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="NCommand\Request.cpp">
+      <Filter>NCommand</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="NState\IState.h">
+      <Filter>NState</Filter>
+    </ClInclude>
+    <ClInclude Include="NState\Static.h">
+      <Filter>NState</Filter>
+    </ClInclude>
+    <ClInclude Include="NState\Init.h">
+      <Filter>NState</Filter>
+    </ClInclude>
+    <ClInclude Include="NState\Logining.h">
+      <Filter>NState</Filter>
+    </ClInclude>
+    <ClInclude Include="NCommand\ICommand.h">
+      <Filter>NCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="NCommand\Request.h">
+      <Filter>NCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="NStrategy\IStrategy.h">
+      <Filter>NStrategy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NState">
+      <UniqueIdentifier>{9d1c3016-15e4-4be2-98c9-18084eeb5d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NCommand">
+      <UniqueIdentifier>{e7dc8605-4a5c-413c-a184-5b58cb37da44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NStrategy">
+      <UniqueIdentifier>{73aa32fa-84db-4ec7-b28b-439c274aeaaf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

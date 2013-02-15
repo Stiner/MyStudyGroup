@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NFacade">
+      <UniqueIdentifier>{811b3549-cd32-4c71-bc67-5300cbc05400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NCommand">
+      <UniqueIdentifier>{9434ac90-8c48-49a1-9d5e-36acb5834f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NCommand\NUser">
+      <UniqueIdentifier>{06d23036-e7fc-4653-8128-908770ef3ba3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
